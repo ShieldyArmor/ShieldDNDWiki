@@ -1,0 +1,12 @@
+.mainContainer {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    padding: 24px 0 24px 0;
+}
+
+.class {
+    text-decoration: none;
+    list-style: none;
+}
