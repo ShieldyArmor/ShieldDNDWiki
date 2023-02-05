@@ -1,5 +1,7 @@
 body {
     background-color: #1d1e22;
+    height: 100%;
+    width: 100%;
 }
 
 .mainContainer {
@@ -15,13 +17,13 @@ body {
 
 #parallax {
     position: relative;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background-image: url(/img/wp9152727.png), url(/img/midground.png), url(/img/homebackground.png);
     background-repeat: no-repeat;
     background-position: center;
     background-position: 50% 50%;
-    background-size: 120%;
+    background-size: auto 110vh;
     overflow: hidden;
     z-index: -10;
 }
